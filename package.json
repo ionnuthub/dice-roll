@@ -1,0 +1,20 @@
+{
+  "name": "pig-game",
+  "version": "1.0.0",
+  "description": "pig-game",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist "
+  },
+  "author": "Ionut Raducu",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.1"
+  },
+  "dependencies": {
+    "core-js": "^3.33.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.0"
+  }
+}
