@@ -89,7 +89,7 @@ btnHold.addEventListener('click', function () {
         .classList.remove('player--active');
     } else {
       // Switch to the next player
-      alert('Hacked');
+
       switchPlayer();
     }
   }
